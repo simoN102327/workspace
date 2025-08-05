@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="rou">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Electricos unidos</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portafolio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Servicios
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Instalacion Electrica</a></li>
+                                    <li><a class="dropdown-item" href="#">Reparacion de daños</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Servicios a la medida</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="rou">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img2.jfif" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Su mejor servicio
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                La electricidad es una forma de energía que se produce por el movimiento de electrones a
+                                través de un conductor, como un cable de cobre. Es fundamental en la vida moderna, ya
+                                que alimenta la mayoría de los dispositivos que usamos a diario: desde focos y
+                                electrodomésticos hasta computadoras y sistemas industriales.
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Llegamos donde sea
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Existen dos tipos principales de corriente eléctrica: corriente continua (CC), que fluye
+                                en una sola dirección, y corriente alterna (CA), que cambia de dirección periódicamente.
+                                La electricidad se genera en centrales eléctricas mediante fuentes renovables (como el
+                                sol, el viento o el agua) o no renovables (como el carbón o el gas).
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Rapido y Eficaz
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Para que su uso sea seguro y eficiente, es necesario seguir normas de instalación, usar
+                                materiales adecuados y evitar sobrecargas. Una buena instalación eléctrica garantiza
+                                ahorro de energía, evita accidentes y mejora el rendimiento de los equipos.
+
+                                ¿Quieres que lo adapte para un nivel específico (primaria, secundaria, técnico) o para
+                                un tema más concreto (instalaciones, ahorro de energía, seguridad eléctrica, etc.)?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="homero.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Nombre completo: Homero simsomp
+                                Cargo: Supervisor de Operaciones Eléctricas
+                                Empresa: ElectroRed S.A.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="bart.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Nombre: Bart simsomp
+                                Cargo: Técnico Electricista
+                                Empresa: ElectroRed S.A.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Papaleta.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Nombre: Papaleta
+                                Cargo: Técnico Electricista
+                                Empresa: ElectroRed S.A.
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div> <div>
+                <footer class="bg-dark text-light p-4">
+                </div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Electricos unidos</h5>
+                        <p>soluciones Electricas rapidas y economicas.</p>
+                        <div>
+                         <div class="col-md-4">
+                            <h5>contacto</h5>
+                            <p>Medellin,Colombia</p>
+                            <p> + 57 3001154484</p>
+                            <p>contacto@electrounidos.com</p>
+                            <div>
+                            </div class="col-md-4">
+                            <h5>siguenos</h5>
+                            <a href="#"class="btn btn-outline-light btn-sm">facebook</a>
+                            <a href="#"class="btn btn-outline-light btn-sm">instagram</a>
+                            <a href="#"class="btn btn-outline-light btn-sm">whatsapp</a>
+                            <div>
+                                <div>
+
+                                </div class="text-center mt-3">
+                                <p>2025 electricos unidos. todos los derechos reservados.</p>
+                            </div>
+                        
+                       
+
+
+
+                         </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+        </div>
+
+</body>
+
+</html>

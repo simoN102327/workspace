@@ -1,0 +1,42 @@
+.titulo{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 200px;
+}
+.textotitulo{
+    color: rgb(45, 199, 15);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+.menu{
+    font-size: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: chocolate;
+}
+a{
+    text-decoration: none;
+    color: rgb(17, 222, 236);
+}
+a:hover{
+    color: aqua;
+    font-size: 80px;
+}
+.contenido{
+    display: flex;
+    justify-content: space-around;
+}
+.sec_uno{
+    width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.sec_dos{
+    width: 500px;
+    height: 300px;
+    background-color: chartreuse;
+
+}
