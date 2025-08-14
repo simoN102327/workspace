@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6a00cc;
+  }
+  
+  h2 {
+    color: #0044cc;
+  }
+  
+  .descripcion {
+    color: #3366cc;
+    font-size: 1.1em;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #d1dfff;
+  }
+  
+  .cursos-lista {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .cursos-lista ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cursos-lista li {
+    margin: 5px 0;
+  }
+  
+  .formulario {
+    background-color: #fff8f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    color: #ff7f2a;
+    font-weight: bold;
+  }
+  
+  .formulario label {
+    color: black;
+    display: inline-block;
+    width: 120px;
+    margin-top: 10px;
+  }
+  
+  .formulario input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .formulario textarea {
+    width: 300px;
+    height: 60px;
+  }
+  
+  .formulario button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #ff7f2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .imagenes img {
+    width: 100px;
+    height: auto;
+  }
